@@ -5,6 +5,7 @@ import usersListReducer from "./reducer/userListReducer";
 
 const combinedReducers = combineReducers({
   userList: usersListReducer,
+  
 });
 
 const persistedReducers = persistReducer(
