@@ -10,7 +10,7 @@ interface IusersState {
 const init: IusersState = { loading: false, error: false, data: [] };
 
 const usersListReducer = createSlice({
-  name: "todo",
+  name: "userList",
   initialState: init,
   reducers: {},
   extraReducers: (builder) => {
